@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                     int sum = num1 + num2;
 
                     resutlText.setText("Result: " + sum);
-                    Toast.makeText(MainActivity.this,"Result " + sum,Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this,"Result: " + sum,Toast.LENGTH_LONG).show();
                 }
             }
         });
