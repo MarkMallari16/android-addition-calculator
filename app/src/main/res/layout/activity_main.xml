@@ -11,7 +11,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Basic Addition"
+        android:text="Basic Calculator"
         android:textSize="24dp"
 
         app:layout_constraintBottom_toBottomOf="parent"
