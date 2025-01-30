@@ -14,12 +14,23 @@
         android:text="Basic Calculator"
         android:textSize="24dp"
 
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toEndOf="@+id/icon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:src="@drawable/baseline_calculate_24"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.361" />
 
     <TextView
         android:id="@+id/textView2"
@@ -37,8 +48,8 @@
         android:id="@+id/firstNumber"
         android:layout_width="354dp"
         android:layout_height="47dp"
-        android:inputType="number"
         android:hint="Enter First Number"
+        android:inputType="number"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,8 +62,8 @@
         android:id="@+id/secondNumber"
         android:layout_width="354dp"
         android:layout_height="47dp"
-        android:inputType="number"
         android:hint="Enter Second Number"
+        android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.561"
@@ -76,8 +87,8 @@
         android:id="@+id/addBtn"
         android:layout_width="359dp"
         android:layout_height="45dp"
-        android:backgroundTint="@color/primary"
         android:layout_marginTop="28dp"
+        android:backgroundTint="@color/primary"
         android:text="ADD"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -103,7 +114,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" 2024 Mark Mallari"
+        android:text="2024 Mark Mallari"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
